@@ -1,0 +1,28 @@
+[app/ui]
+version = 7.2.3
+modtime = 1548976558.844804200
+
+[app/launcher]
+version = 7.2.3
+modtime = 1548976558.855799600
+
+[]
+access = read : [ * ], write : [ admin, power ]
+export = system
+version = 7.2.3
+modtime = 1548976531.609138400
+
+[app/package/check_for_updates]
+version = 7.2.3
+modtime = 1548976558.867796800
+
+[alerts/udeploy_connector]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 7.2.3
+modtime = 1548976578.481551400
+
+[app/install/install_source_checksum]
+version = 7.2.6
+modtime = 1562078677.947223000
